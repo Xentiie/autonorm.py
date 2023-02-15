@@ -13,7 +13,7 @@ printf("TEST\n");\
 
 MAIN
 ```
-Meaning we can basically put the entire source code of a project in defines, which is exactly what this scripts do.
+Meaning we can basically put the entire source code of a project in defines, which is exactly what this script does.
 
 # How to use
 Execute the script with your source files directory as argument
