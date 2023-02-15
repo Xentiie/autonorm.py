@@ -29,4 +29,4 @@ DEFINES=(ctrl+V here)
 $(CC) $(DEFINES) -c $< -o $@
 ```
 
-You will see that a new folder appeared, called "normed". It contains all the new source files. So be sure to compile theses files to build your executable.
+You will see that a new folder appeared, called "normed". It contains all the new source files. So be sure to compile theses files to build your executable. You still need to put your header in each file, as the script does not copy it over. After that you can check the norm on the whole "normed" folder and everything should be valid.
